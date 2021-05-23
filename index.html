@@ -9,37 +9,39 @@
     <title>Nutrition Calculator</title>
   </head>
   <body>
-    <div>
-      <h1 class="pageHeading">Nutrition Calculator</h1>
-      <p class="heading-center">Calculate your calorie requirements</p>
-    </div>
-    <div class="wrapper">
-      <div class="form">
-        <form>
-          <fieldset class="fieldset">
-            <input
-              class="input"
-              type="text"
-              name="sport"
-              placeholder="What is your sport?"
-            />
-          </fieldset>
-          <fieldset class="fieldset">
-            <input
-              class="input"
-              type="text"
-              name="fat"
-              placeholder="Do you know your bodyfat %?"
-            />
-          </fieldset>
-          <button class="btn" type="submit" name="submit">Submit</button>
-        </form>
+    <main>
+      <div>
+        <h1>Nutrition Calculator</h1>
+        <p>Calculate your calorie requirements</p>
       </div>
-      <div class="outcome">
-        <h3>You should use the following equation:</h3>
-        <p>Harris Benedict</p>
+      <div>
+        <div class="form">
+          <form>
+            <fieldset class="fieldset">
+              <input
+                class="input"
+                type="text"
+                name="sport"
+                placeholder="What is your sport?"
+              />
+            </fieldset>
+            <fieldset class="fieldset">
+              <input
+                class="input"
+                type="text"
+                name="fat"
+                placeholder="Do you know your bodyfat %?"
+              />
+            </fieldset>
+            <button class="btn" type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+        <div class="outcome">
+          <h3>You should use the following equation:</h3>
+          <p>Harris Benedict</p>
+        </div>
       </div>
-    </div>
+    </main>
     <script src="./Scripts/main.js"></script>
   </body>
 </html>
