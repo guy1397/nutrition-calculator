@@ -50,10 +50,8 @@ p {
   font-size: 1rem;
 }
 
-.heading-center {
-}
-
-.wrapper {
+.title {
+  text-align: center;
 }
 
 .form {
